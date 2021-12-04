@@ -6354,7 +6354,7 @@ rules:
   - DOMAIN-SUFFIX,pk840.com,🛑 全球拦截
   - DOMAIN-SUFFIX,p-l.play.aiseet.atianqi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,pl108258.puserving.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,pl14369502.puserving.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,2.puserving.com,🛑 全球拦截
   - DOMAIN-SUFFIX,platform.wondershare.com,🛑 全球拦截
   - DOMAIN-SUFFIX,playad.xjmg.com,🛑 全球拦截
   - DOMAIN-SUFFIX,player.1800coupon.com,🛑 全球拦截
