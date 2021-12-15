@@ -5,444 +5,1172 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_19', server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_22', server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_26', server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_32', server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_36', server: 134.195.198.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_37', server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_42', server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_43', server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_50', server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_52', server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_55', server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_59', server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_6', server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_62', server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_63', server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_67', server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_70', server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_75', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_76', server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_77', server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_78', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_79', server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_8', server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_82', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_83', server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_88', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇨🇦_CA_加拿大_9', server: 134.195.198.250, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'v2rayse_🇩🇪_DE_德国_5', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇪🇸_ES_西班牙_2', server: 172.107.233.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇪🇸_ES_西班牙_5', server: 172.107.233.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇬🇧_GB_英国_15', server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇬🇧_GB_英国_18', server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇬🇧_GB_英国_19', server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'v2rayse_🇬🇧_GB_英国_21', server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'v2rayse_🇬🇧_GB_英国_23', server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇬🇧_GB_英国_24', server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'v2rayse_🇬🇧_GB_英国_25', server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'v2rayse_🇬🇧_GB_英国_3', server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇫🇷Youtube频道：工具大师！_39', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '法国Youtube频道：工具大师！_40', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_41', server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_42', server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_43', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_44', server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_45', server: 134.195.198.178, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_46', server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '挪威+🇳🇴Youtube频道：工具大师！_47', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '挪威Youtube频道：工具大师！_48', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '欧洲Youtube频道：工具大师！_49', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '欧洲Youtube频道：工具大师！_50', server: 134.195.196.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇭🇰_HK_香港_1', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇬🇧_GB_英国_2', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
+  - {name: '🇩🇪_DE_德国_3', server: 93.186.201.124, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇩🇪_DE_德国_4', server: 93.186.201.124, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇩🇪_DE_德国_5', server: 93.186.201.124, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇩🇪_DE_德国_6', server: 93.186.201.124, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇩🇪_DE_德国_7', server: 93.186.201.124, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇭🇰_HK_香港_8', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_9', server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: '🇫🇷_FR_法国_10', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_11', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '🇦🇺_AU_澳大利亚_12', server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: '🇺🇸_US_美国_13', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 'default_name_14', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '🇺🇸_US_美国_15', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: '🇺🇸_US_美国_16', server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: '🇮🇱_IL_以色列_17', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: '🇫🇷_FR_法国_18', server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_19', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇩🇪_DE_德国_20', server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
+  - {name: '🇬🇧_GB_英国_21', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇦🇺_AU_澳大利亚_22', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_23', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_24', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇦_UA_乌克兰_25', server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇺🇸_US_美国_26', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '🇮🇱_IL_以色列_27', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: '🇨🇦_CA_加拿大_28', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国_29', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇸🇬_SG_新加坡_30', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: '🇺🇸_US_美国_31', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇺🇸_US_美国_32', server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: us2.v2rayserv.com}}
+  - {name: '🇹🇼_TW_台湾_33', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: '🇺🇸_US_美国_34', server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: '🇮🇳_IN_印度_35', server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇳🇴_NO_挪威_36', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'default_name_37', server: 161.81.195.100, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
+  - {name: '🇳🇴_NO_挪威_38', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_39', server: ff1.uuv2.co.uk, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
+  - {name: '🇳🇴_NO_挪威_40', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'default_name_41', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_法国_42', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇮🇱_IL_以色列_43', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: '🇳🇴_NO_挪威_44', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇭🇰_HK_香港_45', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇭🇰_HK_香港_46', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'default_name_47', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: '🇫🇷_FR_法国_48', server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_49', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇫🇷_FR_法国_50', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇫🇷_FR_法国_51', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇫🇷_FR_法国_52', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇫🇷_FR_法国_53', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇩🇪_DE_德国_54', server: 93.186.201.124, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇫🇷_FR_法国_55', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇳🇴_NO_挪威_56', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'default_name_57', server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: '🇩🇪_DE_德国_58', server: 93.186.201.124, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇫🇷_FR_法国_59', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇫🇷_FR_法国_60', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_61', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇩🇪_DE_德国_62', server: 93.186.201.124, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇳🇴_NO_挪威_63', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇵🇹_PT_葡萄牙_64', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: '🇬🇧_GB_英国_65', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_法国_66', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_67', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇩🇪_DE_德国_68', server: 93.186.201.124, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇬🇧_GB_英国_69', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇳🇴_NO_挪威_70', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_71', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇦🇺_AU_澳大利亚_72', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_73', server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
+  - {name: '🇩🇪_DE_德国_74', server: 93.186.201.124, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇫🇷_FR_法国_75', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇳🇴_NO_挪威_76', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇫🇷_FR_法国_77', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇬🇧_GB_英国_78', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪_DE_德国_79', server: 93.186.201.124, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇳🇴_NO_挪威_80', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇫🇷_FR_法国_81', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_美国_82', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇫🇷_FR_法国_83', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_法国_84', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_法国_85', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_加拿大_86', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_法国_87', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇬🇧_GB_英国_88', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇳🇴_NO_挪威_89', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇵🇹_PT_葡萄牙_90', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'default_name_91', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
+  - {name: '🇨🇦_CA_加拿大_92', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_加拿大_93', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇺🇦_UA_乌克兰_94', server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇬🇧_GB_英国_95', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_加拿大_96', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇬🇧_GB_英国_97', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇸🇪_SE_瑞典_98', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '🇬🇧_GB_英国_99', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'default_name_100', server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: '🇺🇸_US_美国_101', server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: us2.v2rayserv.com}}
+  - {name: '🇬🇧_GB_英国_102', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
+  - {name: '🇫🇷_FR_法国_103', server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇬🇧_GB_英国_104', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇮🇱_IL_以色列_105', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: '🇨🇦_CA_加拿大_106', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇳🇴_NO_挪威_107', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦_CA_加拿大_108', server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇺🇸_US_美国_109', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇩🇪_DE_德国_110', server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
+  - {name: '🇹🇼_TW_台湾_111', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: '🇨🇦_CA_加拿大_112', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇭🇰_HK_香港_113', server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
+  - {name: '🇳🇴_NO_挪威_114', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇳🇴_NO_挪威_115', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸_US_美国->🇫🇷_FR_法国_116', server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}}
+  - {name: '🇩🇪_DE_德国_117', server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
+  - {name: '🇺🇸_US_美国_118', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: '🇬🇧_GB_英国_119', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'default_name_120', server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
+  - {name: '🇳🇴_NO_挪威_121', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇫🇷_FR_法国_122', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '🇨🇦_CA_加拿大_123', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇮🇱_IL_以色列_124', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: '🇳🇴_NO_挪威_125', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_126', server: 172.67.176.114, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}}
+  - {name: '🇨🇦_CA_加拿大_127', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇳🇴_NO_挪威_128', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦_CA_加拿大_129', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇳🇴_NO_挪威_130', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇭🇰_HK_香港_131', server: 161.81.195.100, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
+  - {name: '欧洲Youtube频道：工具大师！_132', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '欧洲Youtube频道：工具大师！+3_133', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '欧洲Youtube频道：工具大师！+4_134', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇫🇷+法国Youtube频道：工具大师！_135', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦+加拿大Youtube频道：工具大师！_136', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦+加拿大Youtube频道：工具大师！+3_137', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '欧洲Youtube频道：工具大师！+9_138', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦+加拿大Youtube频道：工具大师！+9_139', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '欧洲Youtube频道：工具大师！+10_140', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷+法国Youtube频道：工具大师！+2_141', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇨🇦_CA_加拿大_19
-      - v2rayse_🇨🇦_CA_加拿大_22
-      - v2rayse_🇨🇦_CA_加拿大_26
-      - v2rayse_🇨🇦_CA_加拿大_32
-      - v2rayse_🇨🇦_CA_加拿大_36
-      - v2rayse_🇨🇦_CA_加拿大_37
-      - v2rayse_🇨🇦_CA_加拿大_42
-      - v2rayse_🇨🇦_CA_加拿大_43
-      - v2rayse_🇨🇦_CA_加拿大_50
-      - v2rayse_🇨🇦_CA_加拿大_52
-      - v2rayse_🇨🇦_CA_加拿大_55
-      - v2rayse_🇨🇦_CA_加拿大_59
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇦_CA_加拿大_62
-      - v2rayse_🇨🇦_CA_加拿大_63
-      - v2rayse_🇨🇦_CA_加拿大_67
-      - v2rayse_🇨🇦_CA_加拿大_70
-      - v2rayse_🇨🇦_CA_加拿大_75
-      - v2rayse_🇨🇦_CA_加拿大_76
-      - v2rayse_🇨🇦_CA_加拿大_77
-      - v2rayse_🇨🇦_CA_加拿大_78
-      - v2rayse_🇨🇦_CA_加拿大_79
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_82
-      - v2rayse_🇨🇦_CA_加拿大_83
-      - v2rayse_🇨🇦_CA_加拿大_88
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇩🇪_DE_德国_5
-      - v2rayse_🇪🇸_ES_西班牙_2
-      - v2rayse_🇪🇸_ES_西班牙_5
-      - v2rayse_🇬🇧_GB_英国_15
-      - v2rayse_🇬🇧_GB_英国_18
-      - v2rayse_🇬🇧_GB_英国_19
-      - v2rayse_🇬🇧_GB_英国_21
-      - v2rayse_🇬🇧_GB_英国_23
-      - v2rayse_🇬🇧_GB_英国_24
-      - v2rayse_🇬🇧_GB_英国_25
-      - v2rayse_🇬🇧_GB_英国_3
-      - 🇫🇷Youtube频道：工具大师！_39
-      - 法国Youtube频道：工具大师！_40
-      - 加拿大+🇨🇦Youtube频道：工具大师！_41
-      - 加拿大+🇨🇦Youtube频道：工具大师！_42
-      - 加拿大+🇨🇦Youtube频道：工具大师！_43
-      - 加拿大+🇨🇦Youtube频道：工具大师！_44
-      - 加拿大+🇨🇦Youtube频道：工具大师！_45
-      - 加拿大+🇨🇦Youtube频道：工具大师！_46
-      - 挪威+🇳🇴Youtube频道：工具大师！_47
-      - 挪威Youtube频道：工具大师！_48
-      - 欧洲Youtube频道：工具大师！_49
-      - 欧洲Youtube频道：工具大师！_50
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇩🇪_DE_德国_3
+      - 🇩🇪_DE_德国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇭🇰_HK_香港_8
+      - 🇺🇸_US_美国_9
+      - 🇫🇷_FR_法国_10
+      - 🇺🇸_US_美国_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇺🇸_US_美国_13
+      - default_name_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇮🇱_IL_以色列_17
+      - 🇫🇷_FR_法国_18
+      - 🇫🇷_FR_法国_19
+      - 🇩🇪_DE_德国_20
+      - 🇬🇧_GB_英国_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇺🇦_UA_乌克兰_25
+      - 🇺🇸_US_美国_26
+      - 🇮🇱_IL_以色列_27
+      - 🇨🇦_CA_加拿大_28
+      - 🇺🇸_US_美国_29
+      - 🇸🇬_SG_新加坡_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇹🇼_TW_台湾_33
+      - 🇺🇸_US_美国_34
+      - 🇮🇳_IN_印度_35
+      - 🇳🇴_NO_挪威_36
+      - default_name_37
+      - 🇳🇴_NO_挪威_38
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_39
+      - 🇳🇴_NO_挪威_40
+      - default_name_41
+      - 🇫🇷_FR_法国_42
+      - 🇮🇱_IL_以色列_43
+      - 🇳🇴_NO_挪威_44
+      - 🇭🇰_HK_香港_45
+      - 🇭🇰_HK_香港_46
+      - default_name_47
+      - 🇫🇷_FR_法国_48
+      - 🇫🇷_FR_法国_49
+      - 🇫🇷_FR_法国_50
+      - 🇫🇷_FR_法国_51
+      - 🇫🇷_FR_法国_52
+      - 🇫🇷_FR_法国_53
+      - 🇩🇪_DE_德国_54
+      - 🇫🇷_FR_法国_55
+      - 🇳🇴_NO_挪威_56
+      - default_name_57
+      - 🇩🇪_DE_德国_58
+      - 🇫🇷_FR_法国_59
+      - 🇫🇷_FR_法国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇩🇪_DE_德国_62
+      - 🇳🇴_NO_挪威_63
+      - 🇵🇹_PT_葡萄牙_64
+      - 🇬🇧_GB_英国_65
+      - 🇫🇷_FR_法国_66
+      - 🇫🇷_FR_法国_67
+      - 🇩🇪_DE_德国_68
+      - 🇬🇧_GB_英国_69
+      - 🇳🇴_NO_挪威_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇦🇺_AU_澳大利亚_72
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_73
+      - 🇩🇪_DE_德国_74
+      - 🇫🇷_FR_法国_75
+      - 🇳🇴_NO_挪威_76
+      - 🇫🇷_FR_法国_77
+      - 🇬🇧_GB_英国_78
+      - 🇩🇪_DE_德国_79
+      - 🇳🇴_NO_挪威_80
+      - 🇫🇷_FR_法国_81
+      - 🇺🇸_US_美国_82
+      - 🇫🇷_FR_法国_83
+      - 🇫🇷_FR_法国_84
+      - 🇫🇷_FR_法国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇫🇷_FR_法国_87
+      - 🇬🇧_GB_英国_88
+      - 🇳🇴_NO_挪威_89
+      - 🇵🇹_PT_葡萄牙_90
+      - default_name_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇦_UA_乌克兰_94
+      - 🇬🇧_GB_英国_95
+      - 🇨🇦_CA_加拿大_96
+      - 🇬🇧_GB_英国_97
+      - 🇸🇪_SE_瑞典_98
+      - 🇬🇧_GB_英国_99
+      - default_name_100
+      - 🇺🇸_US_美国_101
+      - 🇬🇧_GB_英国_102
+      - 🇫🇷_FR_法国_103
+      - 🇬🇧_GB_英国_104
+      - 🇮🇱_IL_以色列_105
+      - 🇨🇦_CA_加拿大_106
+      - 🇳🇴_NO_挪威_107
+      - 🇨🇦_CA_加拿大_108
+      - 🇺🇸_US_美国_109
+      - 🇩🇪_DE_德国_110
+      - 🇹🇼_TW_台湾_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇭🇰_HK_香港_113
+      - 🇳🇴_NO_挪威_114
+      - 🇳🇴_NO_挪威_115
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_116
+      - 🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国_118
+      - 🇬🇧_GB_英国_119
+      - default_name_120
+      - 🇳🇴_NO_挪威_121
+      - 🇫🇷_FR_法国_122
+      - 🇨🇦_CA_加拿大_123
+      - 🇮🇱_IL_以色列_124
+      - 🇳🇴_NO_挪威_125
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇳🇴_NO_挪威_128
+      - 🇨🇦_CA_加拿大_129
+      - 🇳🇴_NO_挪威_130
+      - 🇭🇰_HK_香港_131
+      - 欧洲Youtube频道：工具大师！_132
+      - 欧洲Youtube频道：工具大师！+3_133
+      - 欧洲Youtube频道：工具大师！+4_134
+      - 🇫🇷+法国Youtube频道：工具大师！_135
+      - 🇨🇦+加拿大Youtube频道：工具大师！_136
+      - 🇨🇦+加拿大Youtube频道：工具大师！+3_137
+      - 欧洲Youtube频道：工具大师！+9_138
+      - 🇨🇦+加拿大Youtube频道：工具大师！+9_139
+      - 欧洲Youtube频道：工具大师！+10_140
+      - 🇫🇷+法国Youtube频道：工具大师！+2_141
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - v2rayse_🇨🇦_CA_加拿大_19
-      - v2rayse_🇨🇦_CA_加拿大_22
-      - v2rayse_🇨🇦_CA_加拿大_26
-      - v2rayse_🇨🇦_CA_加拿大_32
-      - v2rayse_🇨🇦_CA_加拿大_36
-      - v2rayse_🇨🇦_CA_加拿大_37
-      - v2rayse_🇨🇦_CA_加拿大_42
-      - v2rayse_🇨🇦_CA_加拿大_43
-      - v2rayse_🇨🇦_CA_加拿大_50
-      - v2rayse_🇨🇦_CA_加拿大_52
-      - v2rayse_🇨🇦_CA_加拿大_55
-      - v2rayse_🇨🇦_CA_加拿大_59
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇦_CA_加拿大_62
-      - v2rayse_🇨🇦_CA_加拿大_63
-      - v2rayse_🇨🇦_CA_加拿大_67
-      - v2rayse_🇨🇦_CA_加拿大_70
-      - v2rayse_🇨🇦_CA_加拿大_75
-      - v2rayse_🇨🇦_CA_加拿大_76
-      - v2rayse_🇨🇦_CA_加拿大_77
-      - v2rayse_🇨🇦_CA_加拿大_78
-      - v2rayse_🇨🇦_CA_加拿大_79
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_82
-      - v2rayse_🇨🇦_CA_加拿大_83
-      - v2rayse_🇨🇦_CA_加拿大_88
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇩🇪_DE_德国_5
-      - v2rayse_🇪🇸_ES_西班牙_2
-      - v2rayse_🇪🇸_ES_西班牙_5
-      - v2rayse_🇬🇧_GB_英国_15
-      - v2rayse_🇬🇧_GB_英国_18
-      - v2rayse_🇬🇧_GB_英国_19
-      - v2rayse_🇬🇧_GB_英国_21
-      - v2rayse_🇬🇧_GB_英国_23
-      - v2rayse_🇬🇧_GB_英国_24
-      - v2rayse_🇬🇧_GB_英国_25
-      - v2rayse_🇬🇧_GB_英国_3
-      - 🇫🇷Youtube频道：工具大师！_39
-      - 法国Youtube频道：工具大师！_40
-      - 加拿大+🇨🇦Youtube频道：工具大师！_41
-      - 加拿大+🇨🇦Youtube频道：工具大师！_42
-      - 加拿大+🇨🇦Youtube频道：工具大师！_43
-      - 加拿大+🇨🇦Youtube频道：工具大师！_44
-      - 加拿大+🇨🇦Youtube频道：工具大师！_45
-      - 加拿大+🇨🇦Youtube频道：工具大师！_46
-      - 挪威+🇳🇴Youtube频道：工具大师！_47
-      - 挪威Youtube频道：工具大师！_48
-      - 欧洲Youtube频道：工具大师！_49
-      - 欧洲Youtube频道：工具大师！_50
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇩🇪_DE_德国_3
+      - 🇩🇪_DE_德国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇭🇰_HK_香港_8
+      - 🇺🇸_US_美国_9
+      - 🇫🇷_FR_法国_10
+      - 🇺🇸_US_美国_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇺🇸_US_美国_13
+      - default_name_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇮🇱_IL_以色列_17
+      - 🇫🇷_FR_法国_18
+      - 🇫🇷_FR_法国_19
+      - 🇩🇪_DE_德国_20
+      - 🇬🇧_GB_英国_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇺🇦_UA_乌克兰_25
+      - 🇺🇸_US_美国_26
+      - 🇮🇱_IL_以色列_27
+      - 🇨🇦_CA_加拿大_28
+      - 🇺🇸_US_美国_29
+      - 🇸🇬_SG_新加坡_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇹🇼_TW_台湾_33
+      - 🇺🇸_US_美国_34
+      - 🇮🇳_IN_印度_35
+      - 🇳🇴_NO_挪威_36
+      - default_name_37
+      - 🇳🇴_NO_挪威_38
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_39
+      - 🇳🇴_NO_挪威_40
+      - default_name_41
+      - 🇫🇷_FR_法国_42
+      - 🇮🇱_IL_以色列_43
+      - 🇳🇴_NO_挪威_44
+      - 🇭🇰_HK_香港_45
+      - 🇭🇰_HK_香港_46
+      - default_name_47
+      - 🇫🇷_FR_法国_48
+      - 🇫🇷_FR_法国_49
+      - 🇫🇷_FR_法国_50
+      - 🇫🇷_FR_法国_51
+      - 🇫🇷_FR_法国_52
+      - 🇫🇷_FR_法国_53
+      - 🇩🇪_DE_德国_54
+      - 🇫🇷_FR_法国_55
+      - 🇳🇴_NO_挪威_56
+      - default_name_57
+      - 🇩🇪_DE_德国_58
+      - 🇫🇷_FR_法国_59
+      - 🇫🇷_FR_法国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇩🇪_DE_德国_62
+      - 🇳🇴_NO_挪威_63
+      - 🇵🇹_PT_葡萄牙_64
+      - 🇬🇧_GB_英国_65
+      - 🇫🇷_FR_法国_66
+      - 🇫🇷_FR_法国_67
+      - 🇩🇪_DE_德国_68
+      - 🇬🇧_GB_英国_69
+      - 🇳🇴_NO_挪威_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇦🇺_AU_澳大利亚_72
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_73
+      - 🇩🇪_DE_德国_74
+      - 🇫🇷_FR_法国_75
+      - 🇳🇴_NO_挪威_76
+      - 🇫🇷_FR_法国_77
+      - 🇬🇧_GB_英国_78
+      - 🇩🇪_DE_德国_79
+      - 🇳🇴_NO_挪威_80
+      - 🇫🇷_FR_法国_81
+      - 🇺🇸_US_美国_82
+      - 🇫🇷_FR_法国_83
+      - 🇫🇷_FR_法国_84
+      - 🇫🇷_FR_法国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇫🇷_FR_法国_87
+      - 🇬🇧_GB_英国_88
+      - 🇳🇴_NO_挪威_89
+      - 🇵🇹_PT_葡萄牙_90
+      - default_name_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇦_UA_乌克兰_94
+      - 🇬🇧_GB_英国_95
+      - 🇨🇦_CA_加拿大_96
+      - 🇬🇧_GB_英国_97
+      - 🇸🇪_SE_瑞典_98
+      - 🇬🇧_GB_英国_99
+      - default_name_100
+      - 🇺🇸_US_美国_101
+      - 🇬🇧_GB_英国_102
+      - 🇫🇷_FR_法国_103
+      - 🇬🇧_GB_英国_104
+      - 🇮🇱_IL_以色列_105
+      - 🇨🇦_CA_加拿大_106
+      - 🇳🇴_NO_挪威_107
+      - 🇨🇦_CA_加拿大_108
+      - 🇺🇸_US_美国_109
+      - 🇩🇪_DE_德国_110
+      - 🇹🇼_TW_台湾_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇭🇰_HK_香港_113
+      - 🇳🇴_NO_挪威_114
+      - 🇳🇴_NO_挪威_115
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_116
+      - 🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国_118
+      - 🇬🇧_GB_英国_119
+      - default_name_120
+      - 🇳🇴_NO_挪威_121
+      - 🇫🇷_FR_法国_122
+      - 🇨🇦_CA_加拿大_123
+      - 🇮🇱_IL_以色列_124
+      - 🇳🇴_NO_挪威_125
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇳🇴_NO_挪威_128
+      - 🇨🇦_CA_加拿大_129
+      - 🇳🇴_NO_挪威_130
+      - 🇭🇰_HK_香港_131
+      - 欧洲Youtube频道：工具大师！_132
+      - 欧洲Youtube频道：工具大师！+3_133
+      - 欧洲Youtube频道：工具大师！+4_134
+      - 🇫🇷+法国Youtube频道：工具大师！_135
+      - 🇨🇦+加拿大Youtube频道：工具大师！_136
+      - 🇨🇦+加拿大Youtube频道：工具大师！+3_137
+      - 欧洲Youtube频道：工具大师！+9_138
+      - 🇨🇦+加拿大Youtube频道：工具大师！+9_139
+      - 欧洲Youtube频道：工具大师！+10_140
+      - 🇫🇷+法国Youtube频道：工具大师！+2_141
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_🇨🇦_CA_加拿大_19
-      - v2rayse_🇨🇦_CA_加拿大_22
-      - v2rayse_🇨🇦_CA_加拿大_26
-      - v2rayse_🇨🇦_CA_加拿大_32
-      - v2rayse_🇨🇦_CA_加拿大_36
-      - v2rayse_🇨🇦_CA_加拿大_37
-      - v2rayse_🇨🇦_CA_加拿大_42
-      - v2rayse_🇨🇦_CA_加拿大_43
-      - v2rayse_🇨🇦_CA_加拿大_50
-      - v2rayse_🇨🇦_CA_加拿大_52
-      - v2rayse_🇨🇦_CA_加拿大_55
-      - v2rayse_🇨🇦_CA_加拿大_59
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇦_CA_加拿大_62
-      - v2rayse_🇨🇦_CA_加拿大_63
-      - v2rayse_🇨🇦_CA_加拿大_67
-      - v2rayse_🇨🇦_CA_加拿大_70
-      - v2rayse_🇨🇦_CA_加拿大_75
-      - v2rayse_🇨🇦_CA_加拿大_76
-      - v2rayse_🇨🇦_CA_加拿大_77
-      - v2rayse_🇨🇦_CA_加拿大_78
-      - v2rayse_🇨🇦_CA_加拿大_79
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_82
-      - v2rayse_🇨🇦_CA_加拿大_83
-      - v2rayse_🇨🇦_CA_加拿大_88
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇩🇪_DE_德国_5
-      - v2rayse_🇪🇸_ES_西班牙_2
-      - v2rayse_🇪🇸_ES_西班牙_5
-      - v2rayse_🇬🇧_GB_英国_15
-      - v2rayse_🇬🇧_GB_英国_18
-      - v2rayse_🇬🇧_GB_英国_19
-      - v2rayse_🇬🇧_GB_英国_21
-      - v2rayse_🇬🇧_GB_英国_23
-      - v2rayse_🇬🇧_GB_英国_24
-      - v2rayse_🇬🇧_GB_英国_25
-      - v2rayse_🇬🇧_GB_英国_3
-      - 🇫🇷Youtube频道：工具大师！_39
-      - 法国Youtube频道：工具大师！_40
-      - 加拿大+🇨🇦Youtube频道：工具大师！_41
-      - 加拿大+🇨🇦Youtube频道：工具大师！_42
-      - 加拿大+🇨🇦Youtube频道：工具大师！_43
-      - 加拿大+🇨🇦Youtube频道：工具大师！_44
-      - 加拿大+🇨🇦Youtube频道：工具大师！_45
-      - 加拿大+🇨🇦Youtube频道：工具大师！_46
-      - 挪威+🇳🇴Youtube频道：工具大师！_47
-      - 挪威Youtube频道：工具大师！_48
-      - 欧洲Youtube频道：工具大师！_49
-      - 欧洲Youtube频道：工具大师！_50
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇩🇪_DE_德国_3
+      - 🇩🇪_DE_德国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇭🇰_HK_香港_8
+      - 🇺🇸_US_美国_9
+      - 🇫🇷_FR_法国_10
+      - 🇺🇸_US_美国_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇺🇸_US_美国_13
+      - default_name_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇮🇱_IL_以色列_17
+      - 🇫🇷_FR_法国_18
+      - 🇫🇷_FR_法国_19
+      - 🇩🇪_DE_德国_20
+      - 🇬🇧_GB_英国_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇺🇦_UA_乌克兰_25
+      - 🇺🇸_US_美国_26
+      - 🇮🇱_IL_以色列_27
+      - 🇨🇦_CA_加拿大_28
+      - 🇺🇸_US_美国_29
+      - 🇸🇬_SG_新加坡_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇹🇼_TW_台湾_33
+      - 🇺🇸_US_美国_34
+      - 🇮🇳_IN_印度_35
+      - 🇳🇴_NO_挪威_36
+      - default_name_37
+      - 🇳🇴_NO_挪威_38
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_39
+      - 🇳🇴_NO_挪威_40
+      - default_name_41
+      - 🇫🇷_FR_法国_42
+      - 🇮🇱_IL_以色列_43
+      - 🇳🇴_NO_挪威_44
+      - 🇭🇰_HK_香港_45
+      - 🇭🇰_HK_香港_46
+      - default_name_47
+      - 🇫🇷_FR_法国_48
+      - 🇫🇷_FR_法国_49
+      - 🇫🇷_FR_法国_50
+      - 🇫🇷_FR_法国_51
+      - 🇫🇷_FR_法国_52
+      - 🇫🇷_FR_法国_53
+      - 🇩🇪_DE_德国_54
+      - 🇫🇷_FR_法国_55
+      - 🇳🇴_NO_挪威_56
+      - default_name_57
+      - 🇩🇪_DE_德国_58
+      - 🇫🇷_FR_法国_59
+      - 🇫🇷_FR_法国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇩🇪_DE_德国_62
+      - 🇳🇴_NO_挪威_63
+      - 🇵🇹_PT_葡萄牙_64
+      - 🇬🇧_GB_英国_65
+      - 🇫🇷_FR_法国_66
+      - 🇫🇷_FR_法国_67
+      - 🇩🇪_DE_德国_68
+      - 🇬🇧_GB_英国_69
+      - 🇳🇴_NO_挪威_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇦🇺_AU_澳大利亚_72
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_73
+      - 🇩🇪_DE_德国_74
+      - 🇫🇷_FR_法国_75
+      - 🇳🇴_NO_挪威_76
+      - 🇫🇷_FR_法国_77
+      - 🇬🇧_GB_英国_78
+      - 🇩🇪_DE_德国_79
+      - 🇳🇴_NO_挪威_80
+      - 🇫🇷_FR_法国_81
+      - 🇺🇸_US_美国_82
+      - 🇫🇷_FR_法国_83
+      - 🇫🇷_FR_法国_84
+      - 🇫🇷_FR_法国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇫🇷_FR_法国_87
+      - 🇬🇧_GB_英国_88
+      - 🇳🇴_NO_挪威_89
+      - 🇵🇹_PT_葡萄牙_90
+      - default_name_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇦_UA_乌克兰_94
+      - 🇬🇧_GB_英国_95
+      - 🇨🇦_CA_加拿大_96
+      - 🇬🇧_GB_英国_97
+      - 🇸🇪_SE_瑞典_98
+      - 🇬🇧_GB_英国_99
+      - default_name_100
+      - 🇺🇸_US_美国_101
+      - 🇬🇧_GB_英国_102
+      - 🇫🇷_FR_法国_103
+      - 🇬🇧_GB_英国_104
+      - 🇮🇱_IL_以色列_105
+      - 🇨🇦_CA_加拿大_106
+      - 🇳🇴_NO_挪威_107
+      - 🇨🇦_CA_加拿大_108
+      - 🇺🇸_US_美国_109
+      - 🇩🇪_DE_德国_110
+      - 🇹🇼_TW_台湾_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇭🇰_HK_香港_113
+      - 🇳🇴_NO_挪威_114
+      - 🇳🇴_NO_挪威_115
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_116
+      - 🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国_118
+      - 🇬🇧_GB_英国_119
+      - default_name_120
+      - 🇳🇴_NO_挪威_121
+      - 🇫🇷_FR_法国_122
+      - 🇨🇦_CA_加拿大_123
+      - 🇮🇱_IL_以色列_124
+      - 🇳🇴_NO_挪威_125
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇳🇴_NO_挪威_128
+      - 🇨🇦_CA_加拿大_129
+      - 🇳🇴_NO_挪威_130
+      - 🇭🇰_HK_香港_131
+      - 欧洲Youtube频道：工具大师！_132
+      - 欧洲Youtube频道：工具大师！+3_133
+      - 欧洲Youtube频道：工具大师！+4_134
+      - 🇫🇷+法国Youtube频道：工具大师！_135
+      - 🇨🇦+加拿大Youtube频道：工具大师！_136
+      - 🇨🇦+加拿大Youtube频道：工具大师！+3_137
+      - 欧洲Youtube频道：工具大师！+9_138
+      - 🇨🇦+加拿大Youtube频道：工具大师！+9_139
+      - 欧洲Youtube频道：工具大师！+10_140
+      - 🇫🇷+法国Youtube频道：工具大师！+2_141
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇨🇦_CA_加拿大_19
-      - v2rayse_🇨🇦_CA_加拿大_22
-      - v2rayse_🇨🇦_CA_加拿大_26
-      - v2rayse_🇨🇦_CA_加拿大_32
-      - v2rayse_🇨🇦_CA_加拿大_36
-      - v2rayse_🇨🇦_CA_加拿大_37
-      - v2rayse_🇨🇦_CA_加拿大_42
-      - v2rayse_🇨🇦_CA_加拿大_43
-      - v2rayse_🇨🇦_CA_加拿大_50
-      - v2rayse_🇨🇦_CA_加拿大_52
-      - v2rayse_🇨🇦_CA_加拿大_55
-      - v2rayse_🇨🇦_CA_加拿大_59
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇦_CA_加拿大_62
-      - v2rayse_🇨🇦_CA_加拿大_63
-      - v2rayse_🇨🇦_CA_加拿大_67
-      - v2rayse_🇨🇦_CA_加拿大_70
-      - v2rayse_🇨🇦_CA_加拿大_75
-      - v2rayse_🇨🇦_CA_加拿大_76
-      - v2rayse_🇨🇦_CA_加拿大_77
-      - v2rayse_🇨🇦_CA_加拿大_78
-      - v2rayse_🇨🇦_CA_加拿大_79
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_82
-      - v2rayse_🇨🇦_CA_加拿大_83
-      - v2rayse_🇨🇦_CA_加拿大_88
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇩🇪_DE_德国_5
-      - v2rayse_🇪🇸_ES_西班牙_2
-      - v2rayse_🇪🇸_ES_西班牙_5
-      - v2rayse_🇬🇧_GB_英国_15
-      - v2rayse_🇬🇧_GB_英国_18
-      - v2rayse_🇬🇧_GB_英国_19
-      - v2rayse_🇬🇧_GB_英国_21
-      - v2rayse_🇬🇧_GB_英国_23
-      - v2rayse_🇬🇧_GB_英国_24
-      - v2rayse_🇬🇧_GB_英国_25
-      - v2rayse_🇬🇧_GB_英国_3
-      - 🇫🇷Youtube频道：工具大师！_39
-      - 法国Youtube频道：工具大师！_40
-      - 加拿大+🇨🇦Youtube频道：工具大师！_41
-      - 加拿大+🇨🇦Youtube频道：工具大师！_42
-      - 加拿大+🇨🇦Youtube频道：工具大师！_43
-      - 加拿大+🇨🇦Youtube频道：工具大师！_44
-      - 加拿大+🇨🇦Youtube频道：工具大师！_45
-      - 加拿大+🇨🇦Youtube频道：工具大师！_46
-      - 挪威+🇳🇴Youtube频道：工具大师！_47
-      - 挪威Youtube频道：工具大师！_48
-      - 欧洲Youtube频道：工具大师！_49
-      - 欧洲Youtube频道：工具大师！_50
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇩🇪_DE_德国_3
+      - 🇩🇪_DE_德国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇭🇰_HK_香港_8
+      - 🇺🇸_US_美国_9
+      - 🇫🇷_FR_法国_10
+      - 🇺🇸_US_美国_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇺🇸_US_美国_13
+      - default_name_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇮🇱_IL_以色列_17
+      - 🇫🇷_FR_法国_18
+      - 🇫🇷_FR_法国_19
+      - 🇩🇪_DE_德国_20
+      - 🇬🇧_GB_英国_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇺🇦_UA_乌克兰_25
+      - 🇺🇸_US_美国_26
+      - 🇮🇱_IL_以色列_27
+      - 🇨🇦_CA_加拿大_28
+      - 🇺🇸_US_美国_29
+      - 🇸🇬_SG_新加坡_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇹🇼_TW_台湾_33
+      - 🇺🇸_US_美国_34
+      - 🇮🇳_IN_印度_35
+      - 🇳🇴_NO_挪威_36
+      - default_name_37
+      - 🇳🇴_NO_挪威_38
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_39
+      - 🇳🇴_NO_挪威_40
+      - default_name_41
+      - 🇫🇷_FR_法国_42
+      - 🇮🇱_IL_以色列_43
+      - 🇳🇴_NO_挪威_44
+      - 🇭🇰_HK_香港_45
+      - 🇭🇰_HK_香港_46
+      - default_name_47
+      - 🇫🇷_FR_法国_48
+      - 🇫🇷_FR_法国_49
+      - 🇫🇷_FR_法国_50
+      - 🇫🇷_FR_法国_51
+      - 🇫🇷_FR_法国_52
+      - 🇫🇷_FR_法国_53
+      - 🇩🇪_DE_德国_54
+      - 🇫🇷_FR_法国_55
+      - 🇳🇴_NO_挪威_56
+      - default_name_57
+      - 🇩🇪_DE_德国_58
+      - 🇫🇷_FR_法国_59
+      - 🇫🇷_FR_法国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇩🇪_DE_德国_62
+      - 🇳🇴_NO_挪威_63
+      - 🇵🇹_PT_葡萄牙_64
+      - 🇬🇧_GB_英国_65
+      - 🇫🇷_FR_法国_66
+      - 🇫🇷_FR_法国_67
+      - 🇩🇪_DE_德国_68
+      - 🇬🇧_GB_英国_69
+      - 🇳🇴_NO_挪威_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇦🇺_AU_澳大利亚_72
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_73
+      - 🇩🇪_DE_德国_74
+      - 🇫🇷_FR_法国_75
+      - 🇳🇴_NO_挪威_76
+      - 🇫🇷_FR_法国_77
+      - 🇬🇧_GB_英国_78
+      - 🇩🇪_DE_德国_79
+      - 🇳🇴_NO_挪威_80
+      - 🇫🇷_FR_法国_81
+      - 🇺🇸_US_美国_82
+      - 🇫🇷_FR_法国_83
+      - 🇫🇷_FR_法国_84
+      - 🇫🇷_FR_法国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇫🇷_FR_法国_87
+      - 🇬🇧_GB_英国_88
+      - 🇳🇴_NO_挪威_89
+      - 🇵🇹_PT_葡萄牙_90
+      - default_name_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇦_UA_乌克兰_94
+      - 🇬🇧_GB_英国_95
+      - 🇨🇦_CA_加拿大_96
+      - 🇬🇧_GB_英国_97
+      - 🇸🇪_SE_瑞典_98
+      - 🇬🇧_GB_英国_99
+      - default_name_100
+      - 🇺🇸_US_美国_101
+      - 🇬🇧_GB_英国_102
+      - 🇫🇷_FR_法国_103
+      - 🇬🇧_GB_英国_104
+      - 🇮🇱_IL_以色列_105
+      - 🇨🇦_CA_加拿大_106
+      - 🇳🇴_NO_挪威_107
+      - 🇨🇦_CA_加拿大_108
+      - 🇺🇸_US_美国_109
+      - 🇩🇪_DE_德国_110
+      - 🇹🇼_TW_台湾_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇭🇰_HK_香港_113
+      - 🇳🇴_NO_挪威_114
+      - 🇳🇴_NO_挪威_115
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_116
+      - 🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国_118
+      - 🇬🇧_GB_英国_119
+      - default_name_120
+      - 🇳🇴_NO_挪威_121
+      - 🇫🇷_FR_法国_122
+      - 🇨🇦_CA_加拿大_123
+      - 🇮🇱_IL_以色列_124
+      - 🇳🇴_NO_挪威_125
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇳🇴_NO_挪威_128
+      - 🇨🇦_CA_加拿大_129
+      - 🇳🇴_NO_挪威_130
+      - 🇭🇰_HK_香港_131
+      - 欧洲Youtube频道：工具大师！_132
+      - 欧洲Youtube频道：工具大师！+3_133
+      - 欧洲Youtube频道：工具大师！+4_134
+      - 🇫🇷+法国Youtube频道：工具大师！_135
+      - 🇨🇦+加拿大Youtube频道：工具大师！_136
+      - 🇨🇦+加拿大Youtube频道：工具大师！+3_137
+      - 欧洲Youtube频道：工具大师！+9_138
+      - 🇨🇦+加拿大Youtube频道：工具大师！+9_139
+      - 欧洲Youtube频道：工具大师！+10_140
+      - 🇫🇷+法国Youtube频道：工具大师！+2_141
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v2rayse_🇨🇦_CA_加拿大_19
-      - v2rayse_🇨🇦_CA_加拿大_22
-      - v2rayse_🇨🇦_CA_加拿大_26
-      - v2rayse_🇨🇦_CA_加拿大_32
-      - v2rayse_🇨🇦_CA_加拿大_36
-      - v2rayse_🇨🇦_CA_加拿大_37
-      - v2rayse_🇨🇦_CA_加拿大_42
-      - v2rayse_🇨🇦_CA_加拿大_43
-      - v2rayse_🇨🇦_CA_加拿大_50
-      - v2rayse_🇨🇦_CA_加拿大_52
-      - v2rayse_🇨🇦_CA_加拿大_55
-      - v2rayse_🇨🇦_CA_加拿大_59
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇦_CA_加拿大_62
-      - v2rayse_🇨🇦_CA_加拿大_63
-      - v2rayse_🇨🇦_CA_加拿大_67
-      - v2rayse_🇨🇦_CA_加拿大_70
-      - v2rayse_🇨🇦_CA_加拿大_75
-      - v2rayse_🇨🇦_CA_加拿大_76
-      - v2rayse_🇨🇦_CA_加拿大_77
-      - v2rayse_🇨🇦_CA_加拿大_78
-      - v2rayse_🇨🇦_CA_加拿大_79
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_82
-      - v2rayse_🇨🇦_CA_加拿大_83
-      - v2rayse_🇨🇦_CA_加拿大_88
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇩🇪_DE_德国_5
-      - v2rayse_🇪🇸_ES_西班牙_2
-      - v2rayse_🇪🇸_ES_西班牙_5
-      - v2rayse_🇬🇧_GB_英国_15
-      - v2rayse_🇬🇧_GB_英国_18
-      - v2rayse_🇬🇧_GB_英国_19
-      - v2rayse_🇬🇧_GB_英国_21
-      - v2rayse_🇬🇧_GB_英国_23
-      - v2rayse_🇬🇧_GB_英国_24
-      - v2rayse_🇬🇧_GB_英国_25
-      - v2rayse_🇬🇧_GB_英国_3
-      - 🇫🇷Youtube频道：工具大师！_39
-      - 法国Youtube频道：工具大师！_40
-      - 加拿大+🇨🇦Youtube频道：工具大师！_41
-      - 加拿大+🇨🇦Youtube频道：工具大师！_42
-      - 加拿大+🇨🇦Youtube频道：工具大师！_43
-      - 加拿大+🇨🇦Youtube频道：工具大师！_44
-      - 加拿大+🇨🇦Youtube频道：工具大师！_45
-      - 加拿大+🇨🇦Youtube频道：工具大师！_46
-      - 挪威+🇳🇴Youtube频道：工具大师！_47
-      - 挪威Youtube频道：工具大师！_48
-      - 欧洲Youtube频道：工具大师！_49
-      - 欧洲Youtube频道：工具大师！_50
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇩🇪_DE_德国_3
+      - 🇩🇪_DE_德国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇭🇰_HK_香港_8
+      - 🇺🇸_US_美国_9
+      - 🇫🇷_FR_法国_10
+      - 🇺🇸_US_美国_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇺🇸_US_美国_13
+      - default_name_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇮🇱_IL_以色列_17
+      - 🇫🇷_FR_法国_18
+      - 🇫🇷_FR_法国_19
+      - 🇩🇪_DE_德国_20
+      - 🇬🇧_GB_英国_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇺🇦_UA_乌克兰_25
+      - 🇺🇸_US_美国_26
+      - 🇮🇱_IL_以色列_27
+      - 🇨🇦_CA_加拿大_28
+      - 🇺🇸_US_美国_29
+      - 🇸🇬_SG_新加坡_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇹🇼_TW_台湾_33
+      - 🇺🇸_US_美国_34
+      - 🇮🇳_IN_印度_35
+      - 🇳🇴_NO_挪威_36
+      - default_name_37
+      - 🇳🇴_NO_挪威_38
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_39
+      - 🇳🇴_NO_挪威_40
+      - default_name_41
+      - 🇫🇷_FR_法国_42
+      - 🇮🇱_IL_以色列_43
+      - 🇳🇴_NO_挪威_44
+      - 🇭🇰_HK_香港_45
+      - 🇭🇰_HK_香港_46
+      - default_name_47
+      - 🇫🇷_FR_法国_48
+      - 🇫🇷_FR_法国_49
+      - 🇫🇷_FR_法国_50
+      - 🇫🇷_FR_法国_51
+      - 🇫🇷_FR_法国_52
+      - 🇫🇷_FR_法国_53
+      - 🇩🇪_DE_德国_54
+      - 🇫🇷_FR_法国_55
+      - 🇳🇴_NO_挪威_56
+      - default_name_57
+      - 🇩🇪_DE_德国_58
+      - 🇫🇷_FR_法国_59
+      - 🇫🇷_FR_法国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇩🇪_DE_德国_62
+      - 🇳🇴_NO_挪威_63
+      - 🇵🇹_PT_葡萄牙_64
+      - 🇬🇧_GB_英国_65
+      - 🇫🇷_FR_法国_66
+      - 🇫🇷_FR_法国_67
+      - 🇩🇪_DE_德国_68
+      - 🇬🇧_GB_英国_69
+      - 🇳🇴_NO_挪威_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇦🇺_AU_澳大利亚_72
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_73
+      - 🇩🇪_DE_德国_74
+      - 🇫🇷_FR_法国_75
+      - 🇳🇴_NO_挪威_76
+      - 🇫🇷_FR_法国_77
+      - 🇬🇧_GB_英国_78
+      - 🇩🇪_DE_德国_79
+      - 🇳🇴_NO_挪威_80
+      - 🇫🇷_FR_法国_81
+      - 🇺🇸_US_美国_82
+      - 🇫🇷_FR_法国_83
+      - 🇫🇷_FR_法国_84
+      - 🇫🇷_FR_法国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇫🇷_FR_法国_87
+      - 🇬🇧_GB_英国_88
+      - 🇳🇴_NO_挪威_89
+      - 🇵🇹_PT_葡萄牙_90
+      - default_name_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇦_UA_乌克兰_94
+      - 🇬🇧_GB_英国_95
+      - 🇨🇦_CA_加拿大_96
+      - 🇬🇧_GB_英国_97
+      - 🇸🇪_SE_瑞典_98
+      - 🇬🇧_GB_英国_99
+      - default_name_100
+      - 🇺🇸_US_美国_101
+      - 🇬🇧_GB_英国_102
+      - 🇫🇷_FR_法国_103
+      - 🇬🇧_GB_英国_104
+      - 🇮🇱_IL_以色列_105
+      - 🇨🇦_CA_加拿大_106
+      - 🇳🇴_NO_挪威_107
+      - 🇨🇦_CA_加拿大_108
+      - 🇺🇸_US_美国_109
+      - 🇩🇪_DE_德国_110
+      - 🇹🇼_TW_台湾_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇭🇰_HK_香港_113
+      - 🇳🇴_NO_挪威_114
+      - 🇳🇴_NO_挪威_115
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_116
+      - 🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国_118
+      - 🇬🇧_GB_英国_119
+      - default_name_120
+      - 🇳🇴_NO_挪威_121
+      - 🇫🇷_FR_法国_122
+      - 🇨🇦_CA_加拿大_123
+      - 🇮🇱_IL_以色列_124
+      - 🇳🇴_NO_挪威_125
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇳🇴_NO_挪威_128
+      - 🇨🇦_CA_加拿大_129
+      - 🇳🇴_NO_挪威_130
+      - 🇭🇰_HK_香港_131
+      - 欧洲Youtube频道：工具大师！_132
+      - 欧洲Youtube频道：工具大师！+3_133
+      - 欧洲Youtube频道：工具大师！+4_134
+      - 🇫🇷+法国Youtube频道：工具大师！_135
+      - 🇨🇦+加拿大Youtube频道：工具大师！_136
+      - 🇨🇦+加拿大Youtube频道：工具大师！+3_137
+      - 欧洲Youtube频道：工具大师！+9_138
+      - 🇨🇦+加拿大Youtube频道：工具大师！+9_139
+      - 欧洲Youtube频道：工具大师！+10_140
+      - 🇫🇷+法国Youtube频道：工具大师！+2_141
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - v2rayse_🇨🇦_CA_加拿大_19
-      - v2rayse_🇨🇦_CA_加拿大_22
-      - v2rayse_🇨🇦_CA_加拿大_26
-      - v2rayse_🇨🇦_CA_加拿大_32
-      - v2rayse_🇨🇦_CA_加拿大_36
-      - v2rayse_🇨🇦_CA_加拿大_37
-      - v2rayse_🇨🇦_CA_加拿大_42
-      - v2rayse_🇨🇦_CA_加拿大_43
-      - v2rayse_🇨🇦_CA_加拿大_50
-      - v2rayse_🇨🇦_CA_加拿大_52
-      - v2rayse_🇨🇦_CA_加拿大_55
-      - v2rayse_🇨🇦_CA_加拿大_59
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇦_CA_加拿大_62
-      - v2rayse_🇨🇦_CA_加拿大_63
-      - v2rayse_🇨🇦_CA_加拿大_67
-      - v2rayse_🇨🇦_CA_加拿大_70
-      - v2rayse_🇨🇦_CA_加拿大_75
-      - v2rayse_🇨🇦_CA_加拿大_76
-      - v2rayse_🇨🇦_CA_加拿大_77
-      - v2rayse_🇨🇦_CA_加拿大_78
-      - v2rayse_🇨🇦_CA_加拿大_79
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_82
-      - v2rayse_🇨🇦_CA_加拿大_83
-      - v2rayse_🇨🇦_CA_加拿大_88
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇩🇪_DE_德国_5
-      - v2rayse_🇪🇸_ES_西班牙_2
-      - v2rayse_🇪🇸_ES_西班牙_5
-      - v2rayse_🇬🇧_GB_英国_15
-      - v2rayse_🇬🇧_GB_英国_18
-      - v2rayse_🇬🇧_GB_英国_19
-      - v2rayse_🇬🇧_GB_英国_21
-      - v2rayse_🇬🇧_GB_英国_23
-      - v2rayse_🇬🇧_GB_英国_24
-      - v2rayse_🇬🇧_GB_英国_25
-      - v2rayse_🇬🇧_GB_英国_3
-      - 🇫🇷Youtube频道：工具大师！_39
-      - 法国Youtube频道：工具大师！_40
-      - 加拿大+🇨🇦Youtube频道：工具大师！_41
-      - 加拿大+🇨🇦Youtube频道：工具大师！_42
-      - 加拿大+🇨🇦Youtube频道：工具大师！_43
-      - 加拿大+🇨🇦Youtube频道：工具大师！_44
-      - 加拿大+🇨🇦Youtube频道：工具大师！_45
-      - 加拿大+🇨🇦Youtube频道：工具大师！_46
-      - 挪威+🇳🇴Youtube频道：工具大师！_47
-      - 挪威Youtube频道：工具大师！_48
-      - 欧洲Youtube频道：工具大师！_49
-      - 欧洲Youtube频道：工具大师！_50
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇩🇪_DE_德国_3
+      - 🇩🇪_DE_德国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇭🇰_HK_香港_8
+      - 🇺🇸_US_美国_9
+      - 🇫🇷_FR_法国_10
+      - 🇺🇸_US_美国_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇺🇸_US_美国_13
+      - default_name_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇮🇱_IL_以色列_17
+      - 🇫🇷_FR_法国_18
+      - 🇫🇷_FR_法国_19
+      - 🇩🇪_DE_德国_20
+      - 🇬🇧_GB_英国_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇺🇦_UA_乌克兰_25
+      - 🇺🇸_US_美国_26
+      - 🇮🇱_IL_以色列_27
+      - 🇨🇦_CA_加拿大_28
+      - 🇺🇸_US_美国_29
+      - 🇸🇬_SG_新加坡_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇹🇼_TW_台湾_33
+      - 🇺🇸_US_美国_34
+      - 🇮🇳_IN_印度_35
+      - 🇳🇴_NO_挪威_36
+      - default_name_37
+      - 🇳🇴_NO_挪威_38
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_39
+      - 🇳🇴_NO_挪威_40
+      - default_name_41
+      - 🇫🇷_FR_法国_42
+      - 🇮🇱_IL_以色列_43
+      - 🇳🇴_NO_挪威_44
+      - 🇭🇰_HK_香港_45
+      - 🇭🇰_HK_香港_46
+      - default_name_47
+      - 🇫🇷_FR_法国_48
+      - 🇫🇷_FR_法国_49
+      - 🇫🇷_FR_法国_50
+      - 🇫🇷_FR_法国_51
+      - 🇫🇷_FR_法国_52
+      - 🇫🇷_FR_法国_53
+      - 🇩🇪_DE_德国_54
+      - 🇫🇷_FR_法国_55
+      - 🇳🇴_NO_挪威_56
+      - default_name_57
+      - 🇩🇪_DE_德国_58
+      - 🇫🇷_FR_法国_59
+      - 🇫🇷_FR_法国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇩🇪_DE_德国_62
+      - 🇳🇴_NO_挪威_63
+      - 🇵🇹_PT_葡萄牙_64
+      - 🇬🇧_GB_英国_65
+      - 🇫🇷_FR_法国_66
+      - 🇫🇷_FR_法国_67
+      - 🇩🇪_DE_德国_68
+      - 🇬🇧_GB_英国_69
+      - 🇳🇴_NO_挪威_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇦🇺_AU_澳大利亚_72
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_73
+      - 🇩🇪_DE_德国_74
+      - 🇫🇷_FR_法国_75
+      - 🇳🇴_NO_挪威_76
+      - 🇫🇷_FR_法国_77
+      - 🇬🇧_GB_英国_78
+      - 🇩🇪_DE_德国_79
+      - 🇳🇴_NO_挪威_80
+      - 🇫🇷_FR_法国_81
+      - 🇺🇸_US_美国_82
+      - 🇫🇷_FR_法国_83
+      - 🇫🇷_FR_法国_84
+      - 🇫🇷_FR_法国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇫🇷_FR_法国_87
+      - 🇬🇧_GB_英国_88
+      - 🇳🇴_NO_挪威_89
+      - 🇵🇹_PT_葡萄牙_90
+      - default_name_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇦_UA_乌克兰_94
+      - 🇬🇧_GB_英国_95
+      - 🇨🇦_CA_加拿大_96
+      - 🇬🇧_GB_英国_97
+      - 🇸🇪_SE_瑞典_98
+      - 🇬🇧_GB_英国_99
+      - default_name_100
+      - 🇺🇸_US_美国_101
+      - 🇬🇧_GB_英国_102
+      - 🇫🇷_FR_法国_103
+      - 🇬🇧_GB_英国_104
+      - 🇮🇱_IL_以色列_105
+      - 🇨🇦_CA_加拿大_106
+      - 🇳🇴_NO_挪威_107
+      - 🇨🇦_CA_加拿大_108
+      - 🇺🇸_US_美国_109
+      - 🇩🇪_DE_德国_110
+      - 🇹🇼_TW_台湾_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇭🇰_HK_香港_113
+      - 🇳🇴_NO_挪威_114
+      - 🇳🇴_NO_挪威_115
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_116
+      - 🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国_118
+      - 🇬🇧_GB_英国_119
+      - default_name_120
+      - 🇳🇴_NO_挪威_121
+      - 🇫🇷_FR_法国_122
+      - 🇨🇦_CA_加拿大_123
+      - 🇮🇱_IL_以色列_124
+      - 🇳🇴_NO_挪威_125
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇳🇴_NO_挪威_128
+      - 🇨🇦_CA_加拿大_129
+      - 🇳🇴_NO_挪威_130
+      - 🇭🇰_HK_香港_131
+      - 欧洲Youtube频道：工具大师！_132
+      - 欧洲Youtube频道：工具大师！+3_133
+      - 欧洲Youtube频道：工具大师！+4_134
+      - 🇫🇷+法国Youtube频道：工具大师！_135
+      - 🇨🇦+加拿大Youtube频道：工具大师！_136
+      - 🇨🇦+加拿大Youtube频道：工具大师！+3_137
+      - 欧洲Youtube频道：工具大师！+9_138
+      - 🇨🇦+加拿大Youtube频道：工具大师！+9_139
+      - 欧洲Youtube频道：工具大师！+10_140
+      - 🇫🇷+法国Youtube频道：工具大师！+2_141
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇨🇦_CA_加拿大_19
-      - v2rayse_🇨🇦_CA_加拿大_22
-      - v2rayse_🇨🇦_CA_加拿大_26
-      - v2rayse_🇨🇦_CA_加拿大_32
-      - v2rayse_🇨🇦_CA_加拿大_36
-      - v2rayse_🇨🇦_CA_加拿大_37
-      - v2rayse_🇨🇦_CA_加拿大_42
-      - v2rayse_🇨🇦_CA_加拿大_43
-      - v2rayse_🇨🇦_CA_加拿大_50
-      - v2rayse_🇨🇦_CA_加拿大_52
-      - v2rayse_🇨🇦_CA_加拿大_55
-      - v2rayse_🇨🇦_CA_加拿大_59
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇦_CA_加拿大_62
-      - v2rayse_🇨🇦_CA_加拿大_63
-      - v2rayse_🇨🇦_CA_加拿大_67
-      - v2rayse_🇨🇦_CA_加拿大_70
-      - v2rayse_🇨🇦_CA_加拿大_75
-      - v2rayse_🇨🇦_CA_加拿大_76
-      - v2rayse_🇨🇦_CA_加拿大_77
-      - v2rayse_🇨🇦_CA_加拿大_78
-      - v2rayse_🇨🇦_CA_加拿大_79
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_82
-      - v2rayse_🇨🇦_CA_加拿大_83
-      - v2rayse_🇨🇦_CA_加拿大_88
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇩🇪_DE_德国_5
-      - v2rayse_🇪🇸_ES_西班牙_2
-      - v2rayse_🇪🇸_ES_西班牙_5
-      - v2rayse_🇬🇧_GB_英国_15
-      - v2rayse_🇬🇧_GB_英国_18
-      - v2rayse_🇬🇧_GB_英国_19
-      - v2rayse_🇬🇧_GB_英国_21
-      - v2rayse_🇬🇧_GB_英国_23
-      - v2rayse_🇬🇧_GB_英国_24
-      - v2rayse_🇬🇧_GB_英国_25
-      - v2rayse_🇬🇧_GB_英国_3
-      - 🇫🇷Youtube频道：工具大师！_39
-      - 法国Youtube频道：工具大师！_40
-      - 加拿大+🇨🇦Youtube频道：工具大师！_41
-      - 加拿大+🇨🇦Youtube频道：工具大师！_42
-      - 加拿大+🇨🇦Youtube频道：工具大师！_43
-      - 加拿大+🇨🇦Youtube频道：工具大师！_44
-      - 加拿大+🇨🇦Youtube频道：工具大师！_45
-      - 加拿大+🇨🇦Youtube频道：工具大师！_46
-      - 挪威+🇳🇴Youtube频道：工具大师！_47
-      - 挪威Youtube频道：工具大师！_48
-      - 欧洲Youtube频道：工具大师！_49
-      - 欧洲Youtube频道：工具大师！_50
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇩🇪_DE_德国_3
+      - 🇩🇪_DE_德国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇭🇰_HK_香港_8
+      - 🇺🇸_US_美国_9
+      - 🇫🇷_FR_法国_10
+      - 🇺🇸_US_美国_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇺🇸_US_美国_13
+      - default_name_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇮🇱_IL_以色列_17
+      - 🇫🇷_FR_法国_18
+      - 🇫🇷_FR_法国_19
+      - 🇩🇪_DE_德国_20
+      - 🇬🇧_GB_英国_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇺🇦_UA_乌克兰_25
+      - 🇺🇸_US_美国_26
+      - 🇮🇱_IL_以色列_27
+      - 🇨🇦_CA_加拿大_28
+      - 🇺🇸_US_美国_29
+      - 🇸🇬_SG_新加坡_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇹🇼_TW_台湾_33
+      - 🇺🇸_US_美国_34
+      - 🇮🇳_IN_印度_35
+      - 🇳🇴_NO_挪威_36
+      - default_name_37
+      - 🇳🇴_NO_挪威_38
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_39
+      - 🇳🇴_NO_挪威_40
+      - default_name_41
+      - 🇫🇷_FR_法国_42
+      - 🇮🇱_IL_以色列_43
+      - 🇳🇴_NO_挪威_44
+      - 🇭🇰_HK_香港_45
+      - 🇭🇰_HK_香港_46
+      - default_name_47
+      - 🇫🇷_FR_法国_48
+      - 🇫🇷_FR_法国_49
+      - 🇫🇷_FR_法国_50
+      - 🇫🇷_FR_法国_51
+      - 🇫🇷_FR_法国_52
+      - 🇫🇷_FR_法国_53
+      - 🇩🇪_DE_德国_54
+      - 🇫🇷_FR_法国_55
+      - 🇳🇴_NO_挪威_56
+      - default_name_57
+      - 🇩🇪_DE_德国_58
+      - 🇫🇷_FR_法国_59
+      - 🇫🇷_FR_法国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇩🇪_DE_德国_62
+      - 🇳🇴_NO_挪威_63
+      - 🇵🇹_PT_葡萄牙_64
+      - 🇬🇧_GB_英国_65
+      - 🇫🇷_FR_法国_66
+      - 🇫🇷_FR_法国_67
+      - 🇩🇪_DE_德国_68
+      - 🇬🇧_GB_英国_69
+      - 🇳🇴_NO_挪威_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇦🇺_AU_澳大利亚_72
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_73
+      - 🇩🇪_DE_德国_74
+      - 🇫🇷_FR_法国_75
+      - 🇳🇴_NO_挪威_76
+      - 🇫🇷_FR_法国_77
+      - 🇬🇧_GB_英国_78
+      - 🇩🇪_DE_德国_79
+      - 🇳🇴_NO_挪威_80
+      - 🇫🇷_FR_法国_81
+      - 🇺🇸_US_美国_82
+      - 🇫🇷_FR_法国_83
+      - 🇫🇷_FR_法国_84
+      - 🇫🇷_FR_法国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇫🇷_FR_法国_87
+      - 🇬🇧_GB_英国_88
+      - 🇳🇴_NO_挪威_89
+      - 🇵🇹_PT_葡萄牙_90
+      - default_name_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇦_UA_乌克兰_94
+      - 🇬🇧_GB_英国_95
+      - 🇨🇦_CA_加拿大_96
+      - 🇬🇧_GB_英国_97
+      - 🇸🇪_SE_瑞典_98
+      - 🇬🇧_GB_英国_99
+      - default_name_100
+      - 🇺🇸_US_美国_101
+      - 🇬🇧_GB_英国_102
+      - 🇫🇷_FR_法国_103
+      - 🇬🇧_GB_英国_104
+      - 🇮🇱_IL_以色列_105
+      - 🇨🇦_CA_加拿大_106
+      - 🇳🇴_NO_挪威_107
+      - 🇨🇦_CA_加拿大_108
+      - 🇺🇸_US_美国_109
+      - 🇩🇪_DE_德国_110
+      - 🇹🇼_TW_台湾_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇭🇰_HK_香港_113
+      - 🇳🇴_NO_挪威_114
+      - 🇳🇴_NO_挪威_115
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_116
+      - 🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国_118
+      - 🇬🇧_GB_英国_119
+      - default_name_120
+      - 🇳🇴_NO_挪威_121
+      - 🇫🇷_FR_法国_122
+      - 🇨🇦_CA_加拿大_123
+      - 🇮🇱_IL_以色列_124
+      - 🇳🇴_NO_挪威_125
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇳🇴_NO_挪威_128
+      - 🇨🇦_CA_加拿大_129
+      - 🇳🇴_NO_挪威_130
+      - 🇭🇰_HK_香港_131
+      - 欧洲Youtube频道：工具大师！_132
+      - 欧洲Youtube频道：工具大师！+3_133
+      - 欧洲Youtube频道：工具大师！+4_134
+      - 🇫🇷+法国Youtube频道：工具大师！_135
+      - 🇨🇦+加拿大Youtube频道：工具大师！_136
+      - 🇨🇦+加拿大Youtube频道：工具大师！+3_137
+      - 欧洲Youtube频道：工具大师！+9_138
+      - 🇨🇦+加拿大Youtube频道：工具大师！+9_139
+      - 欧洲Youtube频道：工具大师！+10_140
+      - 🇫🇷+法国Youtube频道：工具大师！+2_141
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -458,56 +1186,147 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_🇨🇦_CA_加拿大_19
-      - v2rayse_🇨🇦_CA_加拿大_22
-      - v2rayse_🇨🇦_CA_加拿大_26
-      - v2rayse_🇨🇦_CA_加拿大_32
-      - v2rayse_🇨🇦_CA_加拿大_36
-      - v2rayse_🇨🇦_CA_加拿大_37
-      - v2rayse_🇨🇦_CA_加拿大_42
-      - v2rayse_🇨🇦_CA_加拿大_43
-      - v2rayse_🇨🇦_CA_加拿大_50
-      - v2rayse_🇨🇦_CA_加拿大_52
-      - v2rayse_🇨🇦_CA_加拿大_55
-      - v2rayse_🇨🇦_CA_加拿大_59
-      - v2rayse_🇨🇦_CA_加拿大_6
-      - v2rayse_🇨🇦_CA_加拿大_62
-      - v2rayse_🇨🇦_CA_加拿大_63
-      - v2rayse_🇨🇦_CA_加拿大_67
-      - v2rayse_🇨🇦_CA_加拿大_70
-      - v2rayse_🇨🇦_CA_加拿大_75
-      - v2rayse_🇨🇦_CA_加拿大_76
-      - v2rayse_🇨🇦_CA_加拿大_77
-      - v2rayse_🇨🇦_CA_加拿大_78
-      - v2rayse_🇨🇦_CA_加拿大_79
-      - v2rayse_🇨🇦_CA_加拿大_8
-      - v2rayse_🇨🇦_CA_加拿大_82
-      - v2rayse_🇨🇦_CA_加拿大_83
-      - v2rayse_🇨🇦_CA_加拿大_88
-      - v2rayse_🇨🇦_CA_加拿大_9
-      - v2rayse_🇩🇪_DE_德国_5
-      - v2rayse_🇪🇸_ES_西班牙_2
-      - v2rayse_🇪🇸_ES_西班牙_5
-      - v2rayse_🇬🇧_GB_英国_15
-      - v2rayse_🇬🇧_GB_英国_18
-      - v2rayse_🇬🇧_GB_英国_19
-      - v2rayse_🇬🇧_GB_英国_21
-      - v2rayse_🇬🇧_GB_英国_23
-      - v2rayse_🇬🇧_GB_英国_24
-      - v2rayse_🇬🇧_GB_英国_25
-      - v2rayse_🇬🇧_GB_英国_3
-      - 🇫🇷Youtube频道：工具大师！_39
-      - 法国Youtube频道：工具大师！_40
-      - 加拿大+🇨🇦Youtube频道：工具大师！_41
-      - 加拿大+🇨🇦Youtube频道：工具大师！_42
-      - 加拿大+🇨🇦Youtube频道：工具大师！_43
-      - 加拿大+🇨🇦Youtube频道：工具大师！_44
-      - 加拿大+🇨🇦Youtube频道：工具大师！_45
-      - 加拿大+🇨🇦Youtube频道：工具大师！_46
-      - 挪威+🇳🇴Youtube频道：工具大师！_47
-      - 挪威Youtube频道：工具大师！_48
-      - 欧洲Youtube频道：工具大师！_49
-      - 欧洲Youtube频道：工具大师！_50
+      - 🇭🇰_HK_香港_1
+      - 🇬🇧_GB_英国_2
+      - 🇩🇪_DE_德国_3
+      - 🇩🇪_DE_德国_4
+      - 🇩🇪_DE_德国_5
+      - 🇩🇪_DE_德国_6
+      - 🇩🇪_DE_德国_7
+      - 🇭🇰_HK_香港_8
+      - 🇺🇸_US_美国_9
+      - 🇫🇷_FR_法国_10
+      - 🇺🇸_US_美国_11
+      - 🇦🇺_AU_澳大利亚_12
+      - 🇺🇸_US_美国_13
+      - default_name_14
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国_16
+      - 🇮🇱_IL_以色列_17
+      - 🇫🇷_FR_法国_18
+      - 🇫🇷_FR_法国_19
+      - 🇩🇪_DE_德国_20
+      - 🇬🇧_GB_英国_21
+      - 🇦🇺_AU_澳大利亚_22
+      - 🇨🇦_CA_加拿大_23
+      - 🇨🇦_CA_加拿大_24
+      - 🇺🇦_UA_乌克兰_25
+      - 🇺🇸_US_美国_26
+      - 🇮🇱_IL_以色列_27
+      - 🇨🇦_CA_加拿大_28
+      - 🇺🇸_US_美国_29
+      - 🇸🇬_SG_新加坡_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇹🇼_TW_台湾_33
+      - 🇺🇸_US_美国_34
+      - 🇮🇳_IN_印度_35
+      - 🇳🇴_NO_挪威_36
+      - default_name_37
+      - 🇳🇴_NO_挪威_38
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_39
+      - 🇳🇴_NO_挪威_40
+      - default_name_41
+      - 🇫🇷_FR_法国_42
+      - 🇮🇱_IL_以色列_43
+      - 🇳🇴_NO_挪威_44
+      - 🇭🇰_HK_香港_45
+      - 🇭🇰_HK_香港_46
+      - default_name_47
+      - 🇫🇷_FR_法国_48
+      - 🇫🇷_FR_法国_49
+      - 🇫🇷_FR_法国_50
+      - 🇫🇷_FR_法国_51
+      - 🇫🇷_FR_法国_52
+      - 🇫🇷_FR_法国_53
+      - 🇩🇪_DE_德国_54
+      - 🇫🇷_FR_法国_55
+      - 🇳🇴_NO_挪威_56
+      - default_name_57
+      - 🇩🇪_DE_德国_58
+      - 🇫🇷_FR_法国_59
+      - 🇫🇷_FR_法国_60
+      - 🇨🇦_CA_加拿大_61
+      - 🇩🇪_DE_德国_62
+      - 🇳🇴_NO_挪威_63
+      - 🇵🇹_PT_葡萄牙_64
+      - 🇬🇧_GB_英国_65
+      - 🇫🇷_FR_法国_66
+      - 🇫🇷_FR_法国_67
+      - 🇩🇪_DE_德国_68
+      - 🇬🇧_GB_英国_69
+      - 🇳🇴_NO_挪威_70
+      - 🇨🇦_CA_加拿大_71
+      - 🇦🇺_AU_澳大利亚_72
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_73
+      - 🇩🇪_DE_德国_74
+      - 🇫🇷_FR_法国_75
+      - 🇳🇴_NO_挪威_76
+      - 🇫🇷_FR_法国_77
+      - 🇬🇧_GB_英国_78
+      - 🇩🇪_DE_德国_79
+      - 🇳🇴_NO_挪威_80
+      - 🇫🇷_FR_法国_81
+      - 🇺🇸_US_美国_82
+      - 🇫🇷_FR_法国_83
+      - 🇫🇷_FR_法国_84
+      - 🇫🇷_FR_法国_85
+      - 🇨🇦_CA_加拿大_86
+      - 🇫🇷_FR_法国_87
+      - 🇬🇧_GB_英国_88
+      - 🇳🇴_NO_挪威_89
+      - 🇵🇹_PT_葡萄牙_90
+      - default_name_91
+      - 🇨🇦_CA_加拿大_92
+      - 🇨🇦_CA_加拿大_93
+      - 🇺🇦_UA_乌克兰_94
+      - 🇬🇧_GB_英国_95
+      - 🇨🇦_CA_加拿大_96
+      - 🇬🇧_GB_英国_97
+      - 🇸🇪_SE_瑞典_98
+      - 🇬🇧_GB_英国_99
+      - default_name_100
+      - 🇺🇸_US_美国_101
+      - 🇬🇧_GB_英国_102
+      - 🇫🇷_FR_法国_103
+      - 🇬🇧_GB_英国_104
+      - 🇮🇱_IL_以色列_105
+      - 🇨🇦_CA_加拿大_106
+      - 🇳🇴_NO_挪威_107
+      - 🇨🇦_CA_加拿大_108
+      - 🇺🇸_US_美国_109
+      - 🇩🇪_DE_德国_110
+      - 🇹🇼_TW_台湾_111
+      - 🇨🇦_CA_加拿大_112
+      - 🇭🇰_HK_香港_113
+      - 🇳🇴_NO_挪威_114
+      - 🇳🇴_NO_挪威_115
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_116
+      - 🇩🇪_DE_德国_117
+      - 🇺🇸_US_美国_118
+      - 🇬🇧_GB_英国_119
+      - default_name_120
+      - 🇳🇴_NO_挪威_121
+      - 🇫🇷_FR_法国_122
+      - 🇨🇦_CA_加拿大_123
+      - 🇮🇱_IL_以色列_124
+      - 🇳🇴_NO_挪威_125
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_126
+      - 🇨🇦_CA_加拿大_127
+      - 🇳🇴_NO_挪威_128
+      - 🇨🇦_CA_加拿大_129
+      - 🇳🇴_NO_挪威_130
+      - 🇭🇰_HK_香港_131
+      - 欧洲Youtube频道：工具大师！_132
+      - 欧洲Youtube频道：工具大师！+3_133
+      - 欧洲Youtube频道：工具大师！+4_134
+      - 🇫🇷+法国Youtube频道：工具大师！_135
+      - 🇨🇦+加拿大Youtube频道：工具大师！_136
+      - 🇨🇦+加拿大Youtube频道：工具大师！+3_137
+      - 欧洲Youtube频道：工具大师！+9_138
+      - 🇨🇦+加拿大Youtube频道：工具大师！+9_139
+      - 欧洲Youtube频道：工具大师！+10_140
+      - 🇫🇷+法国Youtube频道：工具大师！+2_141
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -6354,7 +7173,7 @@ rules:
   - DOMAIN-SUFFIX,pk840.com,🛑 全球拦截
   - DOMAIN-SUFFIX,p-l.play.aiseet.atianqi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,pl108258.puserving.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,2.puserving.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,pl14369502.puserving.com,🛑 全球拦截
   - DOMAIN-SUFFIX,platform.wondershare.com,🛑 全球拦截
   - DOMAIN-SUFFIX,playad.xjmg.com,🛑 全球拦截
   - DOMAIN-SUFFIX,player.1800coupon.com,🛑 全球拦截
